@@ -57,11 +57,7 @@ export default function Home() {
     >
       <Map
         reuseMaps
-        mapboxAccessToken={
-          process.env.NODE_ENV !== "production"
-            ? process.env.NEXT_PUBLIC_MAPBOX_TOKEN
-            : process.env.mapboxAccessToken
-        }
+        mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
         mapStyle={mapStyle}
       ></Map>
     </DeckGL>
