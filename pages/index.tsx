@@ -9,7 +9,7 @@ const mapStyle = "mapbox://styles/mapbox/light-v10";
 const cesiumIon = {
   assetId: 1410444,
   token: process.env.NEXT_PUBLIC_CESIUM_ION_TOKEN,
-  tilesetUrl: `https://assets.cesium.com/1410444/tileset.json`,
+  tilesetUrl: `https://assets.ion.cesium.com/1410444/tileset.json`,
 };
 
 const INITIAL_VIEW_STATE = {
